@@ -1,0 +1,26 @@
+github:
+
+1. buat inisialisasi github
+	-> git init
+2. sabungkan git direktori offline dengan github
+	-> git remote add origin link_tambahkan .git
+3. melihat remot 
+	-> git remote -v
+4. membuat README.md
+	-> git add README.md
+5. membuat isian README.md 
+	-> echo "tuliskan isinya di sini" >> README.md
+6. kemudian
+	-> git init
+7. tambahkan dalam list add
+	-> git add *
+8. buat nama commit 
+	-> git commit -m "comit pertama"
+9. buat branch
+	-> git branch -M main
+10. kemudian push 
+	-> git push -u origin main
+11. ketika ada perubahan lakukan langkah ke 7
+12. kemudian buat nama comit-nya seperti dilangkah 8 
+13. kemduain push
+	-> git push
